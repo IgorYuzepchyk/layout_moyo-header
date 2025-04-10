@@ -31,7 +31,7 @@ body {
   padding: 0;
 }
 
-.nav_items:not(:last-child) {
+.nav_item:not(:last-child) {
   margin-right: 20px;
 }
 
