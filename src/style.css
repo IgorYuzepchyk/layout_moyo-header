@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+:root {
+  --blue:#00acdc;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -49,7 +53,7 @@ body {
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--blue);
 }
 
 .is-active::after {
@@ -60,9 +64,9 @@ body {
   right: 0;
   height: 4px;
   border-radius: 8px;
-  background: #00acdc;
+  background: var(--blue);
 }
 
 .nav_link:hover {
-  color: #00acdc;
+  color: var(--blue);
 }
